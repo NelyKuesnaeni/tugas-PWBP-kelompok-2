@@ -17,8 +17,14 @@
 text-transform: uppercase;
 margin-right: 15px;
 }
-.nav-link:hover{
-  border-bottom: 1px solid #000;
+.nav-link:hover::after{
+  content: '';
+  display: block;
+  border-bottom: 3px solid #000;
+  width: 50%;
+  margin: auto;
+  padding-bottom:5px;
+  margin-bottom: -8px; 
 }
 
 /*jumbotron*/
@@ -82,10 +88,10 @@ img{
           <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TUGAS1</a>
+          <a class="nav-link" href="profil.php">TUGAS1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TUGAS2</a>
+          <a class="nav-link" href="tugas2.php">TUGAS2</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">TUGAS3</a>
@@ -110,7 +116,7 @@ img{
     <div class="col-10 info-fanel">
       <div class="row">
         <div class="col-lg"> 
-        <img src="img/nk.jpg" width="110px" height="110px" class="float-left" >
+        <img src="img/nk.jpg" width="110px" height="110px" class="float-left">
         <?php 
       $namaku="Nely Kuesnaeni";
       $umurku= 16;
@@ -121,7 +127,7 @@ img{
       echo "Usia : $umurku tahun<br>";
       echo "Tinggi : $tinggiku cm<br>";
         ?>
-        <a href="#" class="btn btn-primary">Selengkapnya>></a>
+       <br><center><a href="#" class="btn btn-primary">Selengkapnya>></a></center> 
         </div>
 
         <div class="col-lg"> 
@@ -135,7 +141,7 @@ img{
       echo "Usia : $umurmu tahun<br>";
       echo "Tinggi : $tinggimu cm<br>";
         ?>
-        <a href="#" class="btn btn-primary">Selengkapnya>></a>
+        <br><center><a href="#" class="btn btn-primary">Selengkapnya>></a></center> 
         </div>
 
         <div class="col-lg"> 
@@ -149,7 +155,7 @@ img{
       echo "Usia : $umurSaya tahun<br>";
       echo "Tinggi : $tinggiSaya cm<br>";
         ?>
-        <a href="#" class="btn btn-primary">Selengkapnya>></a>
+      <br><center><a href="#" class="btn btn-primary">Selengkapnya>></a></center> 
         </div>
       </div>
     </div>
@@ -174,17 +180,37 @@ img{
     </div>
   </div>
 <!-- akhir rata rata -->
-</div>
 <!-- akhir profil kami -->
-<!-- akhir jumbotron -->
-<footer>
-  <div class="footer">&copy 2019 | the power of "Laaula walaquwaata illa billah"</div>
-</footer>
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <small class="d-block mb-3 text-muted">&copy; 2019 | the power of "Laaula walaquwaata illa billah"</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">CSS</a></li>
+          <li><a class="text-muted" href="#">PHP</a></li>
+          <li><a class="text-muted" href="#">HTML</a></li>
+          <li><a class="text-muted" href="#">Gitbub</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Team Work</a></li>
+          <li><a class="text-muted" href="#">Contact Us</a></li>
+          <li><a class="text-muted" href="#">Profil Us</a></li>
+          <li><a class="text-muted" href="#">Social Media Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-</html>
 </html>
