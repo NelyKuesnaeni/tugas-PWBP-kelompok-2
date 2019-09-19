@@ -94,7 +94,7 @@ img{
           <a class="nav-link" href="tugas2.php">TUGAS2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TUGAS3</a>
+          <a class="nav-link" href="tugas3.php">TUGAS3</a>
         </li>
       </ul>
     </div>

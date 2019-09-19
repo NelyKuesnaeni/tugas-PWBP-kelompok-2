@@ -83,7 +83,7 @@ margin-right: 15px;
           <a class="nav-link" href="tugas2.php">TUGAS2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TUGAS3</a>
+          <a class="nav-link" href="tugas3.php">TUGAS3</a>
         </li>
       </ul>
     </div>
@@ -129,13 +129,13 @@ margin-right: 15px;
        $LKerucut= "PHI x r x (r + s)";
        $VKerucut= "PHI x r2 + PHI x r x s";
        ?>
-       <div class="container">
+
         <div class="row justify-content-center">
         <div class="col-10 info-fanel">
         <div class="row">
         <div class="col-lg"> 
-            <div class="card-deck mb-3 text-center">
-    <div class="card mb-4 shadow-sm">
+        <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
       <div class="card-header">
         <h4 class="my-0 font-weight-normal">1. Kubus</h4>
       </div>
@@ -206,7 +206,7 @@ margin-right: 15px;
         ?>
         <button type="button" class="btn btn-lg btn-block btn-outline-primary">More</button>
       </div>
-    </div>
+     </div>
      <div class="card mb-4 shadow-sm">
       <div class="card-header">
         <h4 class="my-0 font-weight-normal">6. Kerucut</h4>
